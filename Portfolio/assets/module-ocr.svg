@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
+
+ <rect width="600" height="200" fill="#081120"/>
+
+ <rect x="180"
+       y="30"
+       width="180"
+       height="140"
+       rx="8"
+       fill="#112240"
+       stroke="#00d4ff"/>
+
+ <line x1="210" y1="60" x2="330" y2="60"
+       stroke="#72efdd" stroke-width="4"/>
+
+ <line x1="210" y1="90" x2="320" y2="90"
+       stroke="#72efdd" stroke-width="4"/>
+
+ <line x1="210" y1="120" x2="290" y2="120"
+       stroke="#72efdd" stroke-width="4"/>
+
+ <rect x="160"
+       y="50"
+       width="220"
+       height="100"
+       fill="none"
+       stroke="#00d4ff"
+       stroke-width="2">
+
+      <animate attributeName="y"
+               values="50;120;50"
+               dur="3s"
+               repeatCount="indefinite"/>
+ </rect>
+
+ <text x="390" y="90"
+       fill="#72efdd"
+       font-size="22">
+       OCR
+ </text>
+
+</svg>

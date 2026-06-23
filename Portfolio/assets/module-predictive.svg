@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
+
+<rect width="600" height="200" fill="#081120"/>
+
+<circle cx="300"
+        cy="100"
+        r="65"
+        fill="none"
+        stroke="#112240"
+        stroke-width="15"/>
+
+<circle cx="300"
+        cy="100"
+        r="65"
+        fill="none"
+        stroke="#22c55e"
+        stroke-width="15"
+        stroke-dasharray="385"
+        stroke-dashoffset="22"
+        transform="rotate(-90 300 100)"/>
+
+<text x="250"
+      y="105"
+      fill="#72efdd"
+      font-size="34"
+      font-weight="bold">
+      94.2%
+</text>
+
+<text x="255"
+      y="135"
+      fill="#ffffff"
+      font-size="14">
+      Accuracy
+</text>
+
+<circle cx="300"
+        cy="100"
+        r="80"
+        fill="none"
+        stroke="#22c55e"
+        opacity="0.3">
+
+   <animate attributeName="r"
+            values="70;85;70"
+            dur="2s"
+            repeatCount="indefinite"/>
+</circle>
+
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="100%" height="100%">
+  <rect width="600" height="200" rx="8" fill="#0b132b"/>
+  <circle cx="300" cy="100" r="80" fill="none" stroke="#1c2541" stroke-width="1.5"/>
+  <circle cx="300" cy="100" r="50" fill="none" stroke="#1c2541" stroke-width="1.5"/>
+  <circle cx="300" cy="100" r="20" fill="none" stroke="#1c2541" stroke-width="1.5"/>
+  <line x1="300" y1="100" x2="360" y2="45" stroke="#4ea8de" stroke-width="2" />
+  <circle cx="260" cy="70" r="4" fill="#56cfe1" opacity="0.8"/>
+  <circle cx="340" cy="130" r="5" fill="#4ea8de" opacity="0.6"/>
+  <circle cx="250" cy="120" r="4" fill="#4ea8de" opacity="0.5"/>
+  <g>
+    <circle cx="350" cy="65" r="6" fill="#ff4d6d">
+      <animate attributeName="r" values="4;8;4" dur="1.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite" />
+    </circle>
+    <polygon points="350,53 338,75 362,75" fill="none" stroke="#ff4d6d" stroke-width="1.5"/>
+  </g>
+</svg>

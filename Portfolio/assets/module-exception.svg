@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
+
+ <rect width="600" height="200" fill="#081120"/>
+
+ <path d="M120 150
+          L220 100
+          L300 120
+          L400 60
+          L500 40"
+       fill="none"
+       stroke="#00d4ff"
+       stroke-width="5"/>
+
+ <circle cx="220" cy="100" r="10" fill="#ffb703"/>
+ <circle cx="400" cy="60" r="10" fill="#ffb703"/>
+
+ <circle cx="500" cy="40" r="12" fill="#72efdd"/>
+
+ <text x="360"
+       y="35"
+       fill="#72efdd"
+       font-size="20">
+       -35%
+ </text>
+
+ <circle cx="220"
+         cy="100"
+         r="18"
+         fill="none"
+         stroke="#ffb703">
+
+      <animate attributeName="r"
+               values="10;20;10"
+               dur="1.5s"
+               repeatCount="indefinite"/>
+ </circle>
+
+</svg>

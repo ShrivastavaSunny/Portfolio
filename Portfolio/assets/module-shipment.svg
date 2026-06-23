@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
+  <rect width="600" height="200" fill="#081120"/>
+
+  <path d="M80 140 L180 110 L280 120 L380 70 L520 40"
+        stroke="#00d4ff"
+        stroke-width="5"
+        fill="none"/>
+
+  <circle cx="80" cy="140" r="8" fill="#00d4ff"/>
+  <circle cx="180" cy="110" r="8" fill="#00d4ff"/>
+  <circle cx="280" cy="120" r="8" fill="#00d4ff"/>
+  <circle cx="380" cy="70" r="8" fill="#00d4ff"/>
+
+  <circle cx="520" cy="40" r="12" fill="#72efdd">
+    <animate attributeName="r" values="8;15;8"
+             dur="2s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <rect x="230" y="95" width="80" height="40"
+        fill="#112240" rx="6"/>
+
+  <text x="240" y="120"
+        fill="#72efdd"
+        font-size="18">
+        ETA AI
+  </text>
+</svg>

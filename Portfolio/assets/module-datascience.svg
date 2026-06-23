@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
+
+<rect width="600" height="200" fill="#081120"/>
+
+<circle cx="300" cy="100"
+        r="40"
+        fill="#112240"
+        stroke="#00d4ff"
+        stroke-width="3"/>
+
+<path d="M180 100 L260 100"
+      stroke="#00d4ff"
+      stroke-width="4"/>
+
+<path d="M340 100 L420 100"
+      stroke="#a855f7"
+      stroke-width="4"/>
+
+<rect x="120"
+      y="70"
+      width="50"
+      height="60"
+      rx="5"
+      fill="#00d4ff"/>
+
+<rect x="430"
+      y="60"
+      width="70"
+      height="80"
+      rx="5"
+      fill="#22c55e"/>
+
+<text x="100" y="50"
+      fill="#ffffff">
+      DATA
+</text>
+
+<text x="425" y="50"
+      fill="#ffffff">
+      INSIGHTS
+</text>
+
+<circle cx="300" cy="100"
+        r="15"
+        fill="#a855f7">
+  <animate attributeName="r"
+           values="10;18;10"
+           dur="1.5s"
+           repeatCount="indefinite"/>
+</circle>
+
+</svg>

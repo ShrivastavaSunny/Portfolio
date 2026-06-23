@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
+
+<rect width="600" height="200" fill="#081120"/>
+
+<path d="M80 120 L180 120 L280 120 L380 120 L480 120"
+      stroke="#00d4ff"
+      stroke-width="4"
+      fill="none"/>
+
+<circle cx="80" cy="120" r="12" fill="#00d4ff"/>
+<circle cx="180" cy="120" r="12" fill="#72efdd"/>
+<circle cx="280" cy="120" r="12" fill="#a855f7"/>
+<circle cx="380" cy="120" r="12" fill="#fbbf24"/>
+<circle cx="480" cy="120" r="12" fill="#22c55e"/>
+
+<text x="55" y="160" fill="#ffffff" font-size="12">DISCOVER</text>
+<text x="155" y="160" fill="#ffffff" font-size="12">ANALYZE</text>
+<text x="260" y="160" fill="#ffffff" font-size="12">PLAN</text>
+<text x="360" y="160" fill="#ffffff" font-size="12">BUILD</text>
+<text x="465" y="160" fill="#ffffff" font-size="12">SHIP</text>
+
+<circle cx="280" cy="120" r="25"
+        fill="none"
+        stroke="#a855f7">
+  <animate attributeName="r"
+           values="15;30;15"
+           dur="2s"
+           repeatCount="indefinite"/>
+</circle>
+
+</svg>
