@@ -1,8 +1,11 @@
+
 # Portfolio
 
-This folder contains a single-file portfolio site (HTML, CSS, inline SVGs) for Shashi Ranjan Kumar.
+This repository contains a single-file portfolio site (HTML, CSS, inline SVGs) for Shashi Ranjan Kumar.
 
-- Open `index.html` in a browser or serve locally:
+Live site (after Pages finishes publishing): https://ShrivastavaSunny.github.io/Portfolio/
+
+Quick local preview:
 
 ```bash
 cd "Complete Python/portfolio"
@@ -10,10 +13,14 @@ python3 -m http.server 8000
 # then visit http://localhost:8000
 ```
 
-Files:
-- `index.html` — main page
-- `style.css` — styles
-- `assets/` — images and other assets
+Files of interest:
+- `Portfolio/index.html` — main page
+- `Portfolio/style.css` — styles
+- `Portfolio/assets/` — images and other assets
+
+Deployment:
+- This repository contains a GitHub Actions workflow that publishes the `Portfolio/` folder to the `gh-pages` branch. The workflow file is at `.github/workflows/deploy-pages.yml`.
+
 Portfolio site layout
 
 Files/folders:
